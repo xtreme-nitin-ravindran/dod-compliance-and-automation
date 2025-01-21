@@ -85,3 +85,6 @@ sed -i "s@z /var/log/journal/%m 2755 root systemd-journal - -@z /var/log/journal
 sed -i "s@z /run/log/journal 2755 root systemd-journal - -@z /run/log/journal 2750 root systemd-journal - -@" /usr/lib/tmpfiles.d/systemd.conf
 sed -i "s@Z /run/log/journal/%m ~2750 root systemd-journal - -@Z /run/log/journal/%m ~2750 root systemd-journal - -@" /usr/lib/tmpfiles.d/systemd.conf
 #sed -i "s@z /var/log/journal/%m/system.journal 0640 root systemd-journal - -@z /var/log/journal/%m/system.journal 0640 root systemd-journal - -@" /usr/lib/tmpfiles.d/systemd.conf
+
+# V-260520
+sed -i "s@makestep .*@makestep 1 1@g" /etc/chrony/chrony.conf
