@@ -1,12 +1,10 @@
-![Linting](https://github.com/vmware/dod-compliance-and-automation/actions/workflows/code-linting-push.yml/badge.svg?master)
-![Docs Deployment](https://github.com/vmware/dod-compliance-and-automation/actions/workflows/deploy-docs.yml/badge.svg?docs)
 # dod-compliance-and-automation
 
 > [!CAUTION]
 > Prior to using the STIG automation provided here it is assumed the user has familiarity with the rules contained in the various VMware STIGs and has evaluated those for impact and implementation considerations in their environment.
 
 ## Announcements
-Please visit our new documentation page at: https://vmware.github.io/dod-compliance-and-automation/  
+Please visit our new documentation page at: https://techdocs.broadcom.com/us/en/vmware-cis/vcf/stig/9-0/vcf-stig-documentation/docs-overview-overview.html
 
 ## Overview
 VMware is a trusted partner in highly secure, mission critical systems around the world, including the US Department of Defense (DoD). In the DoD, all IT systems must adhere to the rigorous Risk Management Framework (RMF) as defined in DoDI 8510.01. A critical component of RMF is the mandatory implementation of Security Technical Implementation Guides (STIGs) and Security Requirements Guidelines (SRGs) as maintained by the Defense Information Systems Agency (DISA). Where a product specific STIG is not available, the relevant SRGs must be used instead.
@@ -41,7 +39,7 @@ In order to better serve the needs of our DoD partners, and those who wish to me
 ## STIG Readiness Guides
 STIG development is essentially an exercise where a specific product is filtered through all applicable SRGs to produce product-specific, NIST 800-53 backed hardening guidance. That content is then vetted, tested and approved by the DISA Risk Management Executive (RME) and posted on public.cyber.mil. VMware has a number of official STIGs published and we are working on many more. While we go through the official DISA vendor process, we want to make the SRG content available for public consumption and contributions while we wait for the official posting for products that are in process or are not scheduled to be submitted.
 
-For more information on STIG Readiness Guides please read about our [STIG program](https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/docs/vmware-stig-program-overview.pdf).
+For more information on STIG Readiness Guides please read about our [STIG program](https://www.vmware.com/docs/vmw-stig-program-overview).
 
 __NOTE__: This project represents VMware's effort to document our compliance against the SRG requirements and nothing more. A published STIG is our eventual goal, in most cases, but this content should not be viewed to be "as good as a STIG". A DISA published STIG includes technical validation, review of requirement fulfillment, accuracy and style, risk acceptance and is digitally signed by the RME and posted on a .mil. This SRG content is intended to provided value to our partners while the STIGs are in process. Except for products that have published STIGs already, there is no explicit or implied DISA approval of the provided content.
 
